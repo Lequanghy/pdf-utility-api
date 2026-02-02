@@ -13,7 +13,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",   
         "http://127.0.0.1:5173",
-        "https://pdf-utility-9tma.onrender.com/",
+        "https://pdf-utility-api-88dm.onrender.com/",
     ],
     allow_credentials=True,
     allow_methods=["*"],           # allow POST, GET, etc.
