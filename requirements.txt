@@ -1,4 +1,5 @@
 fastapi
 uvicorn
+mangum
 python-multipart
 pikepdf
