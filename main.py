@@ -69,3 +69,7 @@ async def compress_pdf(file: UploadFile = File(...)):
 
     except Exception as e:
         raise HTTPException(500, f"Compression failed: {str(e)}")
+    
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("main:app", host="0.0.0.0", port=int(os.getenv("PORT", 8000)))
